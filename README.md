@@ -297,7 +297,3 @@ pytest tests/
 - **Overbooking protection:** Slot availability is checked and decremented within the same database transaction as the booking creation, preventing race conditions from causing overbooking under normal SQLite usage.
 - **Password security:** Passwords are hashed using `bcrypt` before storage — plaintext passwords are never persisted.
 - **Token expiration:** JWT access tokens expire after 60 minutes by default (configurable via `ACCESS_TOKEN_EXPIRE_MINUTES` in `.env`).
-
-## 📄 License
-
-This project was built as a technical assignment and is provided as-is for evaluation purposes.
