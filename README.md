@@ -26,24 +26,26 @@ All class times are stored internally in UTC and converted to/from **IST (Indian
 
 ## 📁 Project Structure
 
+```
 fitness-booking-api/
 ├── app/
-│ ├── main.py 
-│ ├── database.py 
-│ ├── models.py 
-│ ├── schemas.py 
-│ ├── auth.py 
-│ ├── config.py 
-│ └── routers/
-│ ├── auth_routes.py 
-│ ├── classes.py 
-│ └── bookings.py 
-├── tests/ 
-├── seed_data.py 
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── auth.py
+│   ├── config.py
+│   └── routers/
+│       ├── auth_routes.py
+│       ├── classes.py
+│       └── bookings.py
+├── tests/
+├── seed_data.py
 ├── requirements.txt
-├── .env.example 
+├── .env.example
 ├── .gitignore
 └── README.md
+```
 
 ## ⚙️ Setup Instructions
 
